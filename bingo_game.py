@@ -55,9 +55,9 @@ def main():
     called = []
 
     while True:
-        print_card(player, "Your Card")
+        print_card(player, "Your Card is")
 
-        input("\nPress Enter to draw a number...")
+        input("\nPress Enter to draw a number.....")
 
         remaining = list(set(range(1, 76)) - set(called))
         number = random.choice(remaining)
