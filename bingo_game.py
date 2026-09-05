@@ -4,7 +4,7 @@ SIZE = 5
 
 def generate_card():
     numbers = random.sample(range(1, 76), SIZE * SIZE)
-    card = [numbers[i * SIZE:(i + 1) * SIZE] for i in range(SIZE)]
+    card = [numbersi * SIZE:(i + 1) * SIZE] for i in range(SIZE)]
     card[2][2] = "FREE"
     return card
 
